@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="logo.png">
+<title>Serve the City Lisboa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="logo"><img src="logo.png" alt="Logótipo Serve the City"><div>Serve the City <span>Lisboa</span></div></div>
+  <nav><a href="#sobre">Sobre</a><a href="#calendario">Calendário</a><a href="#participar">Participar</a><a href="#contacto">Contacto</a><a href="#fotos" class="navfotos">Fotos</a></nav>
+</div></header>
+
+<main class="wrap" id="home">
+<div class="hero">
+  <img src="logo.png" alt="">
+  <div><h1>Servir a cidade, <em>juntos</em>.</h1>
+  <p>Voluntariado com e para as pessoas de Lisboa — porque servir a cidade é para todos.</p>
+  <a class="btn" href="#calendario">Ver próximas datas</a><a class="btn alt" href="#participar">Quero participar</a>
+  </div>
+</div>
+
+<section id="sobre">
+  <h2>Quem somos</h2>
+  <p>O Serve the City é uma associação sem fins lucrativos (STC Associação Serve the City Portugal) que reúne voluntários, empresas, escolas, etc... em projetos de serviço à cidade, em especial junto de quem está mais fragilizado. Faz parte de uma rede mundial presente em mais de 80 cidades.</p>
+  <div class="grid">
+    <div class="card"><h3>🤝 Solidariedade</h3><p>Voluntariado acessível a todos, sobretudo a jovens.</p></div>
+    <div class="card"><h3>🍽️ Jantares comunitários</h3><p>Jantares quinzenais onde toda a gente é bem-vinda.</p></div>
+    <div class="card"><h3>🌍 Inclusão</h3><p>Pessoas de todas as origens e culturas a servir lado a lado.</p></div>
+  </div>
+</section>
+
+<section id="calendario">
+  <h2>Calendário</h2>
+  <div class="cal">
+    <div>
+      <div class="calhead"><button id="prev" aria-label="Mês anterior">‹</button><h3 id="mes"></h3><button id="next" aria-label="Mês seguinte">›</button></div>
+      <div class="days" id="dias"></div>
+    </div>
+    <div class="card" id="lista"></div>
+  </div>
+</section>
+
+<section id="participar">
+  <h2>Como participar</h2>
+  <div class="grid">
+    <div class="card"><h3>1. Escolhe uma data</h3><p>Vê no calendário a próxima atividade.</p></div>
+    <div class="card"><h3>2. Fala connosco</h3><p>Contacta-nos por telefone para te inscreveres.</p></div>
+    <div class="card"><h3>3. Aparece!</h3><p>Não precisas de experiência, só de vontade de servir.</p></div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <div class="card">
+    <p>📞 <a href="tel:+351927560301">+351 927 560 301</a></p>
+    <p>📍 <a href="https://www.google.com/maps/place/Serve+the+City+Portugal+%7C+LAR.go+Lisboa/@38.7264238,-9.1393672,1194m/data=!3m1!1e3!4m6!3m5!1s0xd19330e62730e99:0x48830ace368350c3!8m2!3d38.7264067!4d-9.1367622!16s%2Fg%2F11c72qfwxb" target="_blank" rel="noopener">Ver no Google Maps (LAR.go Lisboa)</a></p>
+    <p>📸 <a href="https://www.instagram.com/servethecity.pt/" target="_blank" rel="noopener">@servethecity.pt no Instagram</a></p>
+    <p>🌐 <a href="https://servethecity.pt" target="_blank" rel="noopener">servethecity.pt</a></p>
+  </div>
+</section>
+</main>
+<main class="wrap" id="fotos-view" hidden>
+<section>
+  <a href="#" class="back">← Voltar ao início</a>
+  <h2 style="margin-top:14px">Fotos</h2>
+  <div class="gal" id="gal"></div>
+</section>
+</main>
+<div class="lb" id="lb" hidden><img id="lbimg" alt=""><p id="lbcap"></p></div>
+<footer><div class="wrap">© Serve the City Lisboa · <a href="https://www.instagram.com/servethecity.pt/" target="_blank" rel="noopener">Instagram</a></div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
